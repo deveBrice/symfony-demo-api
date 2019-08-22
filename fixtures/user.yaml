@@ -5,3 +5,4 @@ App\Entity\User:
    email: <email()>
    birthday: <dateTimeBetween('-100 years', '-10 years')>
    apiKey: <regexify('[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}')>
+   #password: bycript
