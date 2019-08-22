@@ -25,3 +25,6 @@ cp .env.dist .env
 docker-compose up -d
 docker-compose exec --user=application web bash
 ```
+
+Badge Travis
+https://travis-ci.org/deveBrice/symfony-demo-api.svg?branch=master
