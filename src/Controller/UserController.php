@@ -54,7 +54,7 @@ class UserController extends AbstractFOSRestController {
       }
       if (!empty($errors)) 
       {
-        // Throw a 400 Bad Request with all errors messages (Not readable, you can do better);
+        // Throw a 400 Bad Request with all errors messages (Not readable, you can do better)
         throw new BadRequestHttpException(\json_encode($errors));
     }
     $this->em->persist($user);
