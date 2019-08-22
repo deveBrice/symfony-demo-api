@@ -1,0 +1,4 @@
+# config\routes.yaml
+users:
+  type: rest
+  resource: App\Controller\UserController
