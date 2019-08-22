@@ -6,7 +6,7 @@ sudo: required
 
 before_install: 
  - cp .env.test.dist .env 
- - composer install 
+ - composer install --no-interaction
  - php bin/console doctrine:schema:update --force 
  - php bin/console hautelook:fixtures:load -q --purge-with-truncate
 
