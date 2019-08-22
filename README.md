@@ -1,3 +1,5 @@
+https://travis-ci.org/deveBrice/symfony-demo-api.svg?branch=master
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -26,5 +28,4 @@ docker-compose up -d
 docker-compose exec --user=application web bash
 ```
 
-Badge Travis
-https://travis-ci.org/deveBrice/symfony-demo-api.svg?branch=master
+
